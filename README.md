@@ -1,73 +1,98 @@
-## Three-Body Problem — Advanced Simulation
+<h1>🌌 Three-Body Problem — Advanced Simulation</h1>
 
-An interactive browser-based simulation of the gravitational three-body problem featuring multiple high-accuracy numerical integrators, adaptive time stepping, and real-time conservation diagnostics.
+<p>
+An interactive browser-based simulation of the <strong>gravitational three-body problem</strong>
+featuring multiple high-accuracy numerical integrators, adaptive time stepping,
+and real-time conservation diagnostics.
+</p>
 
-Built with vanilla JavaScript + HTML5 Canvas (no dependencies).
+<p><strong>Built with vanilla JavaScript + HTML5 Canvas (no dependencies).</strong></p>
 
-✨ Features
+<hr/>
 
-Integrators
+<h2>✨ Features</h2>
 
-Symplectic Verlet (Leapfrog)
+<ul>
+  <li><strong>Integrators</strong>
+    <ul>
+      <li>Symplectic Verlet (Leapfrog)</li>
+      <li>Yoshida 4th Order (Symplectic)</li>
+      <li>RK4</li>
+      <li>Adaptive RKF45 (Cash–Karp)</li>
+    </ul>
+  </li>
+  <li><strong>Live Physics Monitoring</strong>
+    <ul>
+      <li>Total Energy (E)</li>
+      <li>Linear Momentum (|P|)</li>
+      <li>Angular Momentum (|L|)</li>
+      <li>Adaptive timestep display</li>
+    </ul>
+  </li>
+  <li><strong>Collision Modes</strong>
+    <ul>
+      <li>Merge (momentum conserving)</li>
+      <li>Elastic collisions</li>
+      <li>Pass-through</li>
+    </ul>
+  </li>
+  <li><strong>Visualization</strong>
+    <ul>
+      <li>Adjustable trails</li>
+      <li>Velocity vectors</li>
+      <li>Zoom &amp; pan</li>
+      <li>Center-of-mass mini view</li>
+    </ul>
+  </li>
+  <li><strong>Presets</strong>
+    <ul>
+      <li>Figure-8 orbit</li>
+      <li>Lagrange triangle orbit</li>
+    </ul>
+  </li>
+  <li>Import / Export simulation state (JSON)</li>
+</ul>
 
-Yoshida 4th Order (Symplectic)
+<hr/>
 
-RK4
+<h2>🚀 Run Locally</h2>
 
-Adaptive RKF45 (Cash–Karp)
+<pre><code>git clone https://github.com/yourusername/three-body-simulation.git
+</code></pre>
 
-Live Physics Monitoring
+<p>Open <code>index.html</code> in your browser. No setup required.</p>
 
-Total Energy (E)
+<hr/>
 
-Linear Momentum (|P|)
+<h2>🎮 Controls</h2>
 
-Angular Momentum (|L|)
+<ul>
+  <li><strong>Space</strong> — Play / Pause</li>
+  <li><strong>S</strong> — Step</li>
+  <li><strong>R</strong> — Reset</li>
+  <li><strong>C</strong> — Clear trails</li>
+  <li>Drag to pan, scroll to zoom, double-click to recenter</li>
+</ul>
 
-Adaptive timestep display
+<hr/>
 
-Collision Modes
+<h2>📚 About</h2>
 
-Merge (momentum conserving)
+<p>
+The three-body problem has no general closed-form solution and exhibits chaotic behavior.
+This simulation allows exploration of:
+</p>
 
-Elastic collisions
+<ul>
+  <li>Long-term energy conservation (symplectic vs RK methods)</li>
+  <li>Adaptive timestepping during close encounters</li>
+  <li>Sensitivity to initial conditions</li>
+  <li>Chaotic orbital motion</li>
+</ul>
 
-Pass-through
+<hr/>
 
-Visualization
+<h2>📄 License</h2>
 
-Adjustable trails
+<p>MIT License (or your preferred license)</p>
 
-Velocity vectors
-
-Zoom & pan
-
-Center-of-mass mini view
-
-Presets
-
-Figure-8 orbit
-
-Lagrange triangle orbit
-
-Import / Export simulation state (JSON)
-
-🚀 Run Locally
-git clone https://github.com/yourusername/three-body-simulation.git
-
-
-Open index.html in your browser.
-
-No setup required.
-
-🎮 Controls
-
-Space — Play/Pause
-
-S — Step
-
-R — Reset
-
-C — Clear trails
-
-Drag to pan, scroll to zoom, double-click to recenter
