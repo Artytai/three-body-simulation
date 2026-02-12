@@ -1,4 +1,4 @@
-🌌 Three-Body Problem — Advanced Simulation
+## Three-Body Problem — Advanced Simulation
 
 An interactive browser-based simulation of the gravitational three-body problem featuring multiple high-accuracy numerical integrators, adaptive time stepping, and real-time conservation diagnostics.
 
