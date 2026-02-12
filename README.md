@@ -10,7 +10,7 @@ and real-time conservation diagnostics.
 
 <hr/>
 
-<h2>✨ Features</h2>
+<h2> Features</h2>
 
 <ul>
   <li><strong>Integrators</strong>
@@ -91,8 +91,4 @@ This simulation allows exploration of:
 </ul>
 
 <hr/>
-
-<h2>📄 License</h2>
-
-<p>MIT License (or your preferred license)</p>
 
